@@ -4,15 +4,15 @@
 This project implements a multi-threaded event-reservation system using pthread API and Grand Central Dispatch (GCD) for semaphore management. It is designed to manage up to 100 events with a capacity of 500 seats each, handling up to 20 concurrent threads and 5 active queries.
 
 # Features
-*Concurrency Management: Limits active queries using semaphores to ensure system stability.
-*Mutual Exclusion: Uses mutexes to maintain data consistency, allowing only one write operation per event at a time.
-*Dynamic Query Handling: Supports automatic generation and processing of queries for seat booking, cancellation, and availability checks.
-*Performance Monitoring: Efficiently manages load and synchronizes thread operations.
+* Concurrency Management: Limits active queries using semaphores to ensure system stability.
+* Mutual Exclusion: Uses mutexes to maintain data consistency, allowing only one write operation per event at a time.
+* Dynamic Query Handling: Supports automatic generation and processing of queries for seat booking, cancellation, and availability checks.
+* Performance Monitoring: Efficiently manages load and synchronizes thread operations.
 
 # Requirements
-*Operating System: Unix-based systems (including Linux distributions like Ubuntu and macOS)
-*Libraries: pthread, GCD (dispatch)
-*Compiler: GCC or Clang
+* Operating System: Unix-based systems (including Linux distributions like Ubuntu and macOS)
+* Libraries: pthread, GCD (dispatch)
+* Compiler: GCC or Clang
 
 # Installation
 Clone the repository:
