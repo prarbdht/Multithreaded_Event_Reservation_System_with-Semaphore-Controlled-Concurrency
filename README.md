@@ -17,30 +17,26 @@ This project implements a multi-threaded event-reservation system using pthread 
 # Installation
 Clone the repository:
 
-bash
-Copy code
+```Copy code
 ```
 git clone https://github.com/yourusername/event-reservation-system.git
 ```
 Navigate to the project directory:
 
-bash
-Copy code
+```Copy code
 ```
 cd event-reservation-system
 ```
 Compile the project:
 
-bash
-Copy code
+```Copy code
 ```
 g++ -o event_reservation_system main.cpp -lpthread
 ```
 # Usage
 Run the program:
 
-bash
-Copy code
+```Copy code
 ```
 ./event_reservation_system
 ```
@@ -54,8 +50,7 @@ Total running time in seconds
 The system will automatically generate and process queries, displaying the results in the console.
 
 # Example
-plaintext
-Copy code
+```plaintext
 ```
 Enter the number of events: 100
 Enter the capacity of auditorium: 500
