@@ -1,0 +1,2 @@
+# Multithreaded_Event_Reservation_System_with-Semaphore-Controlled-Concurrency
+Developed a multi-threaded event-reservation system using pthread API and GCD. The system supports 100 events with 500 seats each, handling 20 concurrent threads and 5 active queries. Key features include semaphore-based concurrency management, mutex-protected data consistency, dynamic query handling for bookings and cancellations.
